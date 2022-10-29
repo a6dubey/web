@@ -610,9 +610,9 @@
                     z-index: 1 !important;
                     bottom: 0 !important;
                     text-align: center !important;
-                    height: 60px;
-                    min-width: 50px;
-                    border-radius: 55px;
+                    height: 50px;
+                    max-width: 50px;
+                    border-radius: 30%;
                     visibility: visible;
                     transition: none !important;
                     background-color: #1f96f6;
@@ -622,4 +622,16 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    overflow: hidden;
                 }
+                #call img{
+                    max-width: 55px;
+                    max-height: 55px;
+                    
+                    border-radius: 30%;
+                    animation: mymove 3s infinite;
+                }
+
+                 @keyframes mymove {
+                    50% {transform: rotate(360deg);}
+                } 
