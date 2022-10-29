@@ -629,9 +629,9 @@
                     max-height: 55px;
                     
                     border-radius: 30%;
-                    animation: mymove 3s infinite;
+                    animation: mymove 1s infinite;
                 }
 
                  @keyframes mymove {
-                    50% {transform: rotate(360deg);}
+                    50% {transform: rotate(20deg);}
                 } 
